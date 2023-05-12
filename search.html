@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>問題検索</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>問題検索</h1>
+
+    <form action="submit.php" method="post">
+        <div class="form_content">
+            <p>問題名 <input type="text" name="name" required> </p>
+        </div>
+
+        <div class="form_content">
+            <p>コンテスト名 <input type="text" name="contest"> </p>
+        </div>
+
+        <div class="form_content">
+            <p>カテゴリー</p>
+                <input type="checkbox" name="option1" value="Web Exploitation"> Web Exploitation
+                <br>
+                <input type="checkbox" name="option2" value="Cryptography"> Cryptography
+                <br>
+                <input type="checkbox" name="option3" value="Reverse Engineering"> Reverse Engineering
+                <br>
+                <input type="checkbox" name="option4" value="Forensics"> Forensics
+                <br>
+                <input type="checkbox" name="option5" value="General Skills"> General Skills
+                <br>
+                <input type="checkbox" name="option6" value="Binary Exploitation"> Binary Exploitation
+                <br>
+                <input type="checkbox" name="option7" value="Uncategorized"> Uncategorized
+                <br>
+        </div>
+
+        <div class="submit"><input type="submit" value="送信"></div>
+      </form>
+      
+  </body>
+</html>

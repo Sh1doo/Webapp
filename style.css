@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.form_content {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+  
+.form_content > p {
+    margin: 0px;
+}
+
+.submit {
+    text-align: center;
+}
